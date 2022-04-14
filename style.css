@@ -560,7 +560,13 @@ p {
 /*--End Footer--*/
 
 
-
+/* Media Query for Phone */
+@media screen and (max-width:414px) {
+    /* Header */
+    #header .header h1 {
+        font-size: 1.4rem;
+    }
+}
 
 /*-- Media Query for tablet --*/
 @media only screen and (min-width : 768px) {
