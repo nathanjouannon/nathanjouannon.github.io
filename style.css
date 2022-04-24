@@ -53,7 +53,7 @@ p {
 }
 #header .header {
     min-height: 8vh;
-    background-color: rgba(31, 30, 30, 0.24);
+    background-color: transparent;
 }
 #header .nav-bar {
     display: flex;
