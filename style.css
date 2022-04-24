@@ -642,32 +642,19 @@ p {
 /* Media Query Section contact */
 @media screen and (min-width: 1440px) {
     /*-- section_4--*/
-    #section_4 .section_4 {
-        flex-direction: column;
-        padding: 100px 0;
-        align-items: center;
-        justify-content: center;
-    }
-    #section_4 .section_4-title {
-        font-size: 4.6rem;
-    }
-    #section_4 .section_4-item {
+    #section_4 .section_4 .container {
+        height: auto;
         width: 100%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-width: 40vh;
     }
-    #section_4 .section_4-item {
-        flex-basis: 70%;
-        margin: 1%;
+    #section_4 .section_4-top {
+        margin-bottom: 20px;
     }
     #section_4 .section_4-items {
-        width: 90%;
         display: flex;
         flex-direction: row;
-        margin: 0;
-        padding:0;
+    }
+    #section_4 .section_4-item {
+        margin: auto 15px;
     }
     /*--End section_4--*/
 }
