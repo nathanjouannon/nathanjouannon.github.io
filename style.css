@@ -342,7 +342,7 @@ p {
     width: 100%;
     border-radius: 10px;
     overflow: hidden;
-    vertical-align:bottom;
+    display: flex;
 }
 #section_2 .cta {
     display: inline-block;
@@ -427,6 +427,7 @@ p {
 }
 #section_3 .section_3-image img {
     background-position: cover;
+    display: flex;
 }
 #section_3 .section_3-bottom .icon {
     height: 60px;
